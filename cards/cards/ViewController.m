@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Creater the new Project...");
+    NSLog(@"修改文件上传到github服务器...");
 }
 
 
