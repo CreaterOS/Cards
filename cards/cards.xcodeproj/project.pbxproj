@@ -15,6 +15,7 @@
 		683C62D623EFF5F000163201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C62D523EFF5F000163201 /* main.m */; };
 		683C62E023EFF5F000163201 /* cardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C62DF23EFF5F000163201 /* cardsTests.m */; };
 		683C62EB23EFF5F000163201 /* cardsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C62EA23EFF5F000163201 /* cardsUITests.m */; };
+		683C633823EFF7B500163201 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 683C633723EFF7B500163201 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		683C62E623EFF5F000163201 /* cardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		683C62EA23EFF5F000163201 /* cardsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardsUITests.m; sourceTree = "<group>"; };
 		683C62EC23EFF5F000163201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683C633623EFF7B500163201 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		683C633723EFF7B500163201 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				683C62C723EFF5EE00163201 /* AppDelegate.m */,
 				683C62C923EFF5EE00163201 /* ViewController.h */,
 				683C62CA23EFF5EE00163201 /* ViewController.m */,
+				683C633623EFF7B500163201 /* Person.h */,
+				683C633723EFF7B500163201 /* Person.m */,
 				683C62CC23EFF5EE00163201 /* Main.storyboard */,
 				683C62CF23EFF5F000163201 /* Assets.xcassets */,
 				683C62D123EFF5F000163201 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				683C62CB23EFF5EE00163201 /* ViewController.m in Sources */,
 				683C62D623EFF5F000163201 /* main.m in Sources */,
+				683C633823EFF7B500163201 /* Person.m in Sources */,
 				683C62C823EFF5EE00163201 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
